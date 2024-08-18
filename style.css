@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/564x/d7/fd/b9/d7fdb96e91390d0b381e4309ba4f0cc0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.head{
+    margin-top:150px;
+    margin-left: 1150px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+.head h3{
+    font-family: "Solway", system-ui;
+    color: #fff;
+    font-weight: 500;
+}
+.head h5{
+    font-family: "Pacifico", system-ui;
+    color: #fff;
+}
+.button{
+    margin-left: 689px;
+    margin-top: 280px;
+}
+.moon{
+    font-family: "Poppins", sans-serif;
+    
+}
+.btn{
+    text-align: center;
+}
+.but{
+    margin-left: 667px;
+}
+.bg{
+    background-color: whitesmoke;
+    height: 400px;
+    object-fit: fill;
+    
+}
+.h3{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+.he{
+    
+    margin-top: -500px;
+    padding: 90px;
+    text-shadow: 2px 2px 5px #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    background-size: 100% 100%;
+
+}
+.hu{
+    margin-top: -100px;
+
+}
+.span{
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: none;
+    font-family: "Poppins", sans-serif;
+}
+.dblock{
+  height: 660px;
+}
+
+.you1{
+    width: 500px;
+    height: 350px;
+    margin-top: -320px;
+   
+    margin-left:  700px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+#row1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.colum{
+    border-radius: 20px;
+}
+.img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s;
+    border-radius: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(244, 6, 6, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 20px;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  .overlay p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  .image-grid img {
+    margin: 10px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  .row21{
+    height: 550px;
+  }
+  .box {
+    background-color: #f0f0f0;
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100px;
+  }
+  
+  .image-container1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .coll{
+    height: 270px;
+    border-radius: 30px;
+  }
+  .rating-label{
+    margin-left: 190px;
+  }
+  .rating-stars{
+    margin-left: 160px;
+    color: green;
+  }
+  .name{
+    margin-left: 180px;
+  }
+  .rating-stars2{
+    color: green;
+    margin-left: 280px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    color: #ccc;
+  }
+  .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-media-icons a {
+    margin-right: 20px;
+  }
+  
+  .social-media-icons i {
+    font-size: 24px;
+  }
+  
+  .copyright {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
